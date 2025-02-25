@@ -15,7 +15,7 @@ This repository contains my Google Data Analytics final project. I explored the 
 │── 📜 README.md        
 │── 📜 penguin_export.Rmd    
 │── 📜 penguin_analysis.html  
-│── 📊 data/              
+│── 📊 data/file:///C:/Users/Owner/OneDrive/Documents/Backup%20datasets/penguin_analysis_notebook/penguin_analysis.html              
 │── 📷 visuals/   
 
 ## Key Insights
