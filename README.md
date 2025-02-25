@@ -16,7 +16,7 @@ This repository contains my Google Data Analytics final project. I explored the 
 │── 📜 penguin_export.Rmd    
 │── 📜 penguin_analysis.html  
 │── 📊 data/file:///C:/Users/Owner/OneDrive/Documents/Backup%20datasets/penguin_analysis_notebook/penguin_analysis.html              
-│── 📷 visuals/   
+│── 📷 visuals/ Rplot palmer penguins.png &   
 
 ## Key Insights
 A scatter plot helped visualize the relationship between flipper length and body mass, showing that species differ in size. Using color and shape together improved species differentiation. Faceting by sex allowed for separate trend analysis. Handling missing values ​​in the sex column improved accuracy.
