@@ -33,5 +33,8 @@ The dataset comes from the PalmerPenguins package in R, which provides ecologica
 * PalmerPenguins Dataset: https://allisonhorst.github.io/palmerpenguins/
 * ggplot2 Documentation: https://ggplot2.tidyverse.org/
 * RMarkdown Guide http://rmarkdown.rstudio.com
-
   
+ ## Next Steps
+ * Expand analysis with machine learning models.
+ * Compare with other wildlife datasets.
+ * Improve storytelling in my portfolio.
