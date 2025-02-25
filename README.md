@@ -14,7 +14,7 @@ This repository contains my Google Data Analytics final project. I explored the 
 
 │── 📜 README.md        
 │── 📜 penguin_export.Rmd    
-│── 📜 penguins_analysis.html  
+│── 📜 penguin_analysis.html  
 │── 📊 data/              
 │── 📷 visuals/   
 
