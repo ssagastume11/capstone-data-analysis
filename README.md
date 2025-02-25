@@ -25,7 +25,7 @@ This repository contains my Google Data Analytics final project. I explored the 
 A scatter plot helped visualize the relationship between flipper length and body mass, showing that species differ in size. Using color and shape together improved species differentiation. Faceting by sex allowed for separate trend analysis. Handling missing values ​​in the sex column improved accuracy.
 
 ## How to Reproduce
-1. Clone this repository: git clone https://github.com/yourusername/capstone-data-analysis.git
+1. Clone this repository: git clone https://github.com/ssagastume11/capstone-data-analysis.git
 2. Open RStudio and run penguins_analysis.Rmd
 3. View the generated HTML report for insights.
 
