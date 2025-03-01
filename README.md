@@ -1,7 +1,8 @@
 # 🐧 Palmer Penguins Data Analysis
 
-## 📌 Project Overview
-This project analyzes the **Palmer Penguins** dataset using **R and ggplot2**. The goal is to explore relationships between different penguin species and their physical characteristics while applying data visualization best practices.  
+## 📌 Project Overview  
+This project analyzes the **Palmer Penguins** dataset using **R and ggplot2**. The goal is to explore relationships between different penguin species and their physical characteristics while applying data visualization best practices.   
+📑 **Full Report:** [View on GitHub Pages](https://ssagastume11.github.io/capstone-data-analysis/)  
 
 ## 📊 Dataset  
 The **Palmer Penguins dataset** contains measurements of three penguin species—Adélie, Chinstrap, and Gentoo—collected from islands in Antarctica. It includes attributes such as **bill length, flipper length, body mass, and sex**.  
