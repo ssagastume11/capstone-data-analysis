@@ -52,6 +52,6 @@ rmarkdown::render("penguins_analysis.Rmd")
 The dataset comes from the PalmerPenguins package in R, which provides ecological data for three penguin species in Antarctica.
 
 📚 Resources & References
-Palmer Penguins Dataset
-ggplot2 Documentation
-RMarkdown Guide
+Palmer_Penguins_Dataset
+ggplot2_Documentation
+RMarkdown_Guide
