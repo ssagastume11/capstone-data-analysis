@@ -30,10 +30,10 @@ Dataset source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerp
 ## 📊 Key Visualizations  
 
 ### 1️⃣ Flipper Length vs. Body Mass  
-![Flipper Length vs. Body Mass](capstone-data-analysis/Rplot_palmer_penguins.png)  
+![Flipper Length vs. Body Mass](capstone_data_analysis/Rplot_palmer_penguins.png)  
 
 ### 2️⃣ Species Distribution  
-![Species Distribution](capstone-data-analysis/Rpoint_palmer_penguins.png)  
+![Species Distribution](capstone_data_analysis/Rpoint_palmer_penguins.png)  
 
 ## 📊 Key Insights  
 ✅ A scatter plot visualized the relationship between **flipper length and body mass**, showing distinct size differences between species.  
