@@ -41,10 +41,13 @@ Dataset source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerp
 ✅ **Handling missing values** in the sex column improved data accuracy and insights.  
 
 ## 🚀 How to Reproduce
-1️⃣ Clone this repository:
+1️⃣ Clone this repository:  
+```bash
 git clone https://github.com/ssagastume11/capstone-data-analysis.git
+```
 2️⃣ Open RStudio and run:
 rmarkdown::render("penguins_analysis.Rmd")
+
 3️⃣ View the generated HTML report for insights.
 
 ## Dataset
