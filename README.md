@@ -1,15 +1,19 @@
-# Capstone Data Analysis: PalmerPenguins
-## Project Overview
-This repository contains my Google Data Analytics final project. I explored the PalmerPenguins dataset using R and several tidyverse packages to perform data manipulation, visualization, and analysis. This project demonstrates my ability to clean data, create meaningful visualizations, and share information through an RMarkdown report.
+# 🐧 Palmer Penguins Data Analysis
 
-## Skills & Tools Used
-* R Programming (tidyverse, ggplot2, dplyr, readr)
-* Data Visualizations (Scatter plots, faceting, color coding)
-* Data Wrangling (Handling missing values, transforming variables)
-* Exploratory Data Analysis (EDA)
-* RMardown (for documentation and reproducibility)
+## 📌 Project Overview
+This project analyzes the **Palmer Penguins** dataset using **R and ggplot2**. The goal is to explore relationships between different penguin species and their physical characteristics while applying data visualization best practices.  
 
-## Project Structure
+## 📊 Dataset  
+The **Palmer Penguins dataset** contains measurements of three penguin species—Adélie, Chinstrap, and Gentoo—collected from islands in Antarctica. It includes attributes such as **bill length, flipper length, body mass, and sex**.  
+
+Dataset source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)  
+
+## 🛠️ Tools & Libraries  
+- **R** (tidyverse, ggplot2, dplyr, readr)  
+- **RMarkdown** for reporting  
+- **GitHub** for version control  
+
+## 📁 Repository Structure  
 📁 capstone-data-analysis/
 
 │── 📜 README.md        
@@ -21,23 +25,30 @@ This repository contains my Google Data Analytics final project. I explored the 
 │    ├── Rplot_palmer_penguins.png  
 │    ├── Rpoint_palmer_penguins.png  
 
-## Key Insights
-A scatter plot helped visualize the relationship between flipper length and body mass, showing that species differ in size. Using color and shape together improved species differentiation. Faceting by sex allowed for separate trend analysis. Handling missing values ​​in the sex column improved accuracy.
 
-## How to Reproduce
-1. Clone this repository: git clone https://github.com/ssagastume11/capstone-data-analysis.git
-2. Open RStudio and run penguins_analysis.Rmd
-3. View the generated HTML report for insights.
+## 📊 Key Insights  
+✅ A scatter plot visualized the relationship between **flipper length and body mass**, showing distinct size differences between species.  
+✅ Using **color and shape together** improved species differentiation in visualizations.  
+✅ **Faceting by sex** allowed for a more granular trend analysis.  
+✅ **Handling missing values** in the sex column improved data accuracy and insights.  
+
+## 🚀 How to Reproduce  
+1️⃣ Clone this repository:  
+```bash
+git clone https://github.com/ssagastume11/capstone-data-analysis.git
+2️⃣ Open RStudio and run:
+rmarkdown::render("penguins_analysis.Rmd")
+3️⃣ View the generated HTML report for insights.
 
 ## Dataset
 The dataset comes from the PalmerPenguins package in R, which provides ecological data for three penguin species in Antarctica.
 
-## Resources and references
-* PalmerPenguins Dataset: https://allisonhorst.github.io/palmerpenguins/
-* ggplot2 Documentation: https://ggplot2.tidyverse.org/
-* RMarkdown Guide http://rmarkdown.rstudio.com
+📚 Resources & References
+* Palmer Penguins Dataset
+* ggplot2 Documentation
+* RMarkdown Guide
   
- ## Next Steps
- * Expand analysis with machine learning models.
- * Compare with other wildlife datasets.
- * Improve storytelling in my portfolio.
+## Next Steps
+* Expand analysis with machine learning models.
+* Compare with other wildlife datasets.
+* Improve storytelling in my portfolio.
