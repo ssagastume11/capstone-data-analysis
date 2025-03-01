@@ -14,11 +14,12 @@ Dataset source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerp
 - **GitHub** for version control  
 
 ## 📁 Repository Structure  
-📁 capstone-data-analysis/
 
+📁 capstone-data-analysis/
 │── 📜 README.md        
+│── 📁 docs/             
+│    ├── index.html
 │── 📜 penguin_export.Rmd  
-│── 📜 penguin_analysis.html   
 │── 📊 data/              
 │    ├── penguins.csv  
 │── 📷 visuals/         
