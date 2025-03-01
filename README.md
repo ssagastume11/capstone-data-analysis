@@ -26,6 +26,7 @@ Dataset source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerp
 │    ├── Rpoint_palmer_penguins.png  
 
 
+
 ## 📊 Key Insights  
 ✅ A scatter plot visualized the relationship between **flipper length and body mass**, showing distinct size differences between species.  
 ✅ Using **color and shape together** improved species differentiation in visualizations.  
@@ -33,7 +34,6 @@ Dataset source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerp
 ✅ **Handling missing values** in the sex column improved data accuracy and insights.  
 
 ## 🚀 How to Reproduce  
-
 1️⃣ Clone this repository:  
 ```bash
 git clone https://github.com/ssagastume11/capstone-data-analysis.git
@@ -44,14 +44,7 @@ rmarkdown::render("penguins_analysis.Rmd")
 ## Dataset
 The dataset comes from the PalmerPenguins package in R, which provides ecological data for three penguin species in Antarctica.
 
-
-
 📚 Resources & References
-* Palmer Penguins Dataset
-* ggplot2 Documentation
-* RMarkdown Guide
-  
-## Next Steps
-* Expand analysis with machine learning models.
-* Compare with other wildlife datasets.
-* Improve storytelling in my portfolio.
+Palmer Penguins Dataset
+ggplot2 Documentation
+RMarkdown Guide
