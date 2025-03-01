@@ -40,9 +40,8 @@ Dataset source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerp
 ✅ **Faceting by sex** allowed for a more granular trend analysis.  
 ✅ **Handling missing values** in the sex column improved data accuracy and insights.  
 
-## 🚀 How to Reproduce  
-1️⃣ Clone this repository:  
-```bash
+## 🚀 How to Reproduce
+1️⃣ Clone this repository:
 git clone https://github.com/ssagastume11/capstone-data-analysis.git
 2️⃣ Open RStudio and run:
 rmarkdown::render("penguins_analysis.Rmd")
@@ -51,7 +50,7 @@ rmarkdown::render("penguins_analysis.Rmd")
 ## Dataset
 The dataset comes from the PalmerPenguins package in R, which provides ecological data for three penguin species in Antarctica.
 
-📚 Resources & References
-[Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)
-[ggplot2 Documentation](https://ggplot2.tidyverse.org/)
-[RMarkdown Guide](https://rmarkdown.rstudio.com/)
+## 📚 Resources & References
+* [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)
+* [ggplot2 Documentation](https://ggplot2.tidyverse.org/)
+* [RMarkdown Guide](https://rmarkdown.rstudio.com/)
