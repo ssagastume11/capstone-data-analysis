@@ -30,7 +30,7 @@ Dataset source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerp
 ## 📊 Key Visualizations  
 
 ### 1️⃣ Flipper Length vs. Body Mass  
-![Flipper Length vs. Body Mass](https://raw.githubusercontent.com/ssagastume11/capstone-data-analysis/refs/heads/main/Rpoint%20palmer%20penguins.png)  
+![Flipper Length vs. Body Mass](https://raw.githubusercontent.com/ssagastume11/capstone-data-analysis/refs/heads/main/Rplot%20palmer%20penguins.png)  
 
 ### 2️⃣ Species Distribution  
 ![Species Distribution](https://raw.githubusercontent.com/ssagastume11/capstone-data-analysis/refs/heads/main/Rpoint%20palmer%20penguins.png)  
