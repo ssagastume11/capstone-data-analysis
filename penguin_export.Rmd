@@ -1,0 +1,63 @@
+---
+title: "Penguin Analysis"
+author: "Sergio"
+date: "2025-02-11"
+output:
+  html_document: default
+  pdf_document: default
+---
+# Penguin Analysis: Practice Analysis
+This notebook explores the **Palmer Penguins** dataset using R.
+
+## Load Libraries
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About the Dataset
+The `palmerpenguins` dataset contains three species of penguins (**Adelie, Chinstrap, and Gentoo**) collected from the Palmer Archipelago, Antarctica. Below is an overview of the dataset:
+
+### Data Summary
+```{r penguins}
+data("penguins")
+head(penguins)
+summary(penguins)
+str(penguins)
+```
+
+## Data Cleaning
+Before analysis, let's clean the dataset by removing rows with missing values:
+```{r}
+penguins_clean <- penguins %>% drop_na()
+summary(penguins_clean)
+```
+
+## Exploratory Data Analysis
+### Distribution of Flipper Length by Species
+```{r flipper_plot}
+ggplot(penguins_clean, aes(x = species, y = flipper_length_mm, fill = species)) +
+  geom_boxplot() +
+  labs(title = "Flipper Length Distribution by Species", 
+       x = "Penguin Species", 
+       y = "Flipper Length (mm)") +
+  theme_minimal()
+```
+
+### Bill Length vs. Bill Depth
+```{r bill_scatter}
+ggplot(penguins_clean, aes(x = bill_length_mm, y = bill_depth_mm, color = species)) +
+  geom_point(alpha = 0.7) +
+  labs(title = "Bill Length vs. Bill Depth", 
+       x = "Bill Length (mm)", 
+       y = "Bill Depth (mm)") +
+  theme_minimal()
+```
+
+## Conclusion
+This analysis provides an overview of the Palmer Penguins data set, showing key differences between species based on flipper length and bill characteristics. Further analysis could explore additional relationships and statistical comparisons among species.
